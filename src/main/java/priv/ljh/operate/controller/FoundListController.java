@@ -26,7 +26,7 @@ public class FoundListController {
     @GetMapping
     public ResultResponse create() {
         ResultResponse res = null;
-        List<FoundList> foundLists = foundMapper.selectlist(null);
+        List<FoundList> foundLists = foundMapper.selectList(null);
         log.info("foundlist====>"+foundLists);
         res = new ResultResponse(Constants.STATUS_OK, Constants.MESSAGE_OK, foundLists);
         return res;

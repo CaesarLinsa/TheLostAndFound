@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @MapperScan({"priv.ljh.uniapp.mapper","priv.ljh.pc.mapper", "priv.ljh.operate.mapper"})
 @SpringBootApplication
-public class WarmSearchApplication {
+public class TheLostAndFoundApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WarmSearchApplication.class, args);
+        SpringApplication.run(TheLostAndFoundApplication.class, args);
 
     }
 
